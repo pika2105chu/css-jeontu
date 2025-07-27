@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.circle {
+  background-color: rgba(255, 136, 0, 0.87);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star {
+  margin: 0;
+  color: rgb(114, 36, 0);
+  font-size: 8cm;
+  margin-bottom: 90px;
+  position: absolute;
+}
+
+.stick{
+    
+  width: 11px;
+  height: 100px;
+  background-color: rgb(114, 36, 0);
+  margin-top: 160px;
+  border-radius: 30px;
+  display: flex;
+}

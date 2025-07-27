@@ -1,0 +1,104 @@
+body {
+      background: rgba(110, 107, 72, 0.938);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .wheelchair {
+      position: relative;
+      width: 150px;
+      height: 150px;
+    }
+
+    .wheel {
+      width: 105px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: rgb(11, 11, 39);
+      position: absolute;
+      bottom: 0;
+      left: 0;
+    }
+
+    .cutout {
+      width: 65px;
+      height: 65px;
+      background: rgb(54, 147, 175);
+      position: absolute;
+      bottom: 15px;
+      left: 18px;
+      border-radius: 50%;
+    }
+
+    .smallcircle{
+        width: 25px;
+        height: 25px;
+       background-color: rgb(11, 11, 39);
+        border-radius: 50%;
+        position: absolute;
+        top: 90px;
+        left:37px;
+    }
+
+    .body {
+      width: 28px;
+      height: 53px;
+      background-color: rgb(11, 11, 39);
+      position: relative;
+      top: 6px;
+      left: 55px;
+    }
+
+    .backseat {
+      width: 14px;
+      height: 53px;
+      background-color: rgb(11, 11, 39);
+      position: relative;
+      top: -38px;
+      left: 30px;
+    }
+
+    .lowseat {
+      width: 50px;
+      height: 14px;
+      background: rgb(11, 11, 39);
+      position: absolute;
+      bottom: 30px;
+      left: 85px;
+      transform: rotate(0deg);
+    }
+
+    .head {
+      width: 30px;
+      height: 30px;
+      background: rgb(11, 11, 39);
+      border-radius: 50%;
+      position: absolute;
+      top: -24px;
+      left: 53px;
+    }
+
+    .bendleg{
+    width: 35px;
+    height: 50px;
+    background-color: rgb(11, 11, 39);
+    margin: 20px;
+    border-top-right-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 63px;
+    }
+
+    .cutleg{
+    width: 25px;
+    height: 40px;
+    background-color: rgba(110, 107, 72, 0.938);
+    margin: 20px;
+    border-top-right-radius: 50%;
+    position:absolute;
+    z-index: 1;
+    bottom: 20px;
+    left: 63px;
+    }

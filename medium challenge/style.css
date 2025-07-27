@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(255, 136, 0, 0.87);
+    height: 100%;
+    width: 100%;
+    border-radius: 12cm;
+    display: flex;
+}
+
+.quater_circle{
+    width: 130px;
+    height: 130px;
+    background-color: rgb(17, 17, 46);
+    margin: 20px;
+    /* border-top-left-radius: 60px; */
+    border-top-right-radius: 160px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(17, 17, 46);
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.bigcircle{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(17, 17, 46);
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
+
+.triangle{
+      width: 0;
+      height: 0;
+      border-left: 30px solid transparent;
+      border-right: 30px solid transparent;
+      border-bottom: 50px solid rgb(255, 81, 0);
+      margin: 10px;
+}
+
+.square{
+      width: 50px;
+      height: 50px;
+      background-color: rgb(17, 17, 46);
+}
+
+.concentric {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 5px solid navy;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+.concentric::before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: navy;
+    }
+
+ .dashed-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      border: 4px dashed navy;
+    }
+
+    .diagonal {
+      width: 80px;
+      height: 5px;
+      background: navy;
+      transform: rotate(45deg);
+    }
+
+    .l-shape {
+      width: 60px;
+      height: 60px;
+      position: relative;
+    }
+
+    .l-shape::before {
+      content: "";
+      position: absolute;
+            width: 10px;
+      height: 60px;
+      background: rgb(63, 43, 7);
+      left: 0;
+      top: 0;
+    }
+
+    .l-shape::after {
+      content: "";
+      position: absolute;
+      width: 60px;
+      height: 10px;
+      background: rgb(59, 47, 24);
+      bottom: 0;
+      left: 0;
+    }
