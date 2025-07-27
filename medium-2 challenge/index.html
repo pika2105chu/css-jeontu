@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Room Design</title>
+  <style>
+    body {
+      background: rgb(0, 0, 0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .room {
+      position: relative;
+      width: 120px;
+      height: 150px;
+    }
+
+    .bar {
+      width: 100px;
+      height: 100px;
+      /* transform: skewX(5deg); */
+      position: absolute;
+    }
+
+    .bar1 {
+      transform:skew(0deg,-25deg);
+      background-color: #18578b; /* blue */
+      right: 40px;
+    }
+
+    .bar2 {
+        transform:skew(0deg,25deg);
+      background-color: #0f8a5be3; /* teal */
+      left:80px;
+      top:0;
+    }
+
+    .bar3 {
+      background-color: #5a6b5a80;
+      width: 104px;
+      height: 42px;
+      transform: skew(-68deg, 25deg);
+      
+      top: 12px;
+      left: -70px;
+      transform-origin: 60px 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="room">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+  </div>
+</body>
+</html>
